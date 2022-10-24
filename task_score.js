@@ -4,5 +4,5 @@ let scoreJS = 60;
 let calculation = (scoreIntroduction + scoreGit + scoreJS) / 3;
 let userName = "Vasya";
 let userSurname = "Petrov";
-let fullName = userName + " " + userSurname;
+let fullName = userName.slice(0, 1) + " " + userSurname;
 console.log(`Your average score ${fullName} = ${Math.floor(calculation)}`);
